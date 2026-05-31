@@ -1,0 +1,106 @@
+/* SignupSuccess.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.signup-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-card {
+  width: 500px;
+  background: #f7f7f7;
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+}
+
+.signup-card h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.icon {
+  font-size: 90px;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 25px;
+  background: white;
+  margin-bottom: 20px;
+}
+
+.info-box p {
+  font-size: 20px;
+  margin: 15px 0;
+  color: #222;
+}
+
+.info-box span {
+  font-weight: bold;
+}
+
+.copy-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.copy-btn:hover {
+  background: #f0f0f0;
+}
+
+.email-text {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.notice {
+  background: #e9f3ff;
+  color: #0a58ca;
+  padding: 14px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
+.verify-btn {
+  background: #0d6efd;
+  color: white;
+  border: none;
+  padding: 15px 35px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.verify-btn:hover {
+  background: #0b5ed7;
+}
+
+.help-text {
+  margin-top: 25px;
+  font-size: 15px;
+}
+
+.help-text a {
+  color: #0d6efd;
+  text-decoration: none;
+}

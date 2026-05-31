@@ -1,0 +1,155 @@
+.residency-container {
+  min-height: 100vh;
+  background: white;
+}
+
+.residency-header {
+  background: #0066ff;
+  color: white;
+    padding: 7px 8px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.header-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.progress-percent {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.progress-bar-container {
+  width: 100%;
+  background: #0052cc;
+  height: 4px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  background: white;
+  height: 100%;
+  width: 40%;
+  border-radius: 2px;
+}
+
+.residency-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px);
+  padding: 48px 20px;
+}
+
+.residency-form {
+  width: 100%;
+  max-width: 700px;
+  position: relative;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  color: #0066ff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 32px;
+  transition: opacity 0.2s;
+}
+
+.back-button:hover {
+  opacity: 0.7;
+}
+
+.back-button svg {
+  width: 20px;
+  height: 20px;
+}
+
+.residency-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.residency-icon svg {
+  width: 80px;
+  height: 80px;
+}
+
+.residency-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #0066ff;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.residency-label svg {
+  width: 20px;
+  height: 20px;
+}
+
+.residency-question {
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #333;
+  line-height: 1.4;
+}
+
+.residency-question .highlight {
+  font-weight: 600;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.option-button {
+  padding: 12px 48px;
+  font-size: 15px;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 6px;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.option-button:hover {
+  background: #e0e0e0;
+}
+
+@media (max-width: 768px) {
+  .residency-question {
+    font-size: 24px;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .option-button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+}
+
+.navbar {
+  height: 80px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  width: 120px;
+}
+
+.nav-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.lang-btn,
+.user-btn {
+  padding: 10px 18px;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  background: white;
+}
+
+.nav-link {
+  border: none;
+  background: none;
+  color: #005eff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.center-container {
+  width: 540px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.center-container h1 {
+  font-size: 54px;
+  margin-bottom: 10px;
+}
+
+.center-container p {
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.input {
+  width: 100%;
+  padding: 18px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.primary-btn {
+  width: 100%;
+  padding: 18px;
+  background: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.outline-btn {
+  width: 100%;
+  padding: 16px;
+  margin-top: 15px;
+  background: white;
+  border: 2px solid #0066ff;
+  border-radius: 6px;
+  color: #0066ff;
+  cursor: pointer;
+}
+.small-text{
+  margin-top: 20px;
+}
+
+.small-text span {
+  color: #0066ff;
+  cursor: pointer;
+}
+
+.platform-page {
+  width: 900px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.platform-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.platform-card {
+  width: 330px;
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  border: 2px solid #ddd;
+  cursor: pointer;
+}
+
+.platform-card.active {
+  border-color: #0066ff;
+}
+
+.badge {
+  font-size: 12px;
+  margin-bottom: 20px;
+  color: #0066ff;
+}
+
+.platform-card h2 {
+  margin-bottom: 15px;
+}
+
+.platform-card p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.platform-card ul {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.platform-card li {
+  margin-bottom: 10px;
+}
+
+.choose-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  background: #eee;
+}
+
+.continue-btn {
+  width: 300px;
+  padding: 18px;
+  border: none;
+  border-radius: 6px;
+  background: #0066ff;
+  color: white;
+  font-size: 18px;
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(#49a7ff, #0066ff);
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}

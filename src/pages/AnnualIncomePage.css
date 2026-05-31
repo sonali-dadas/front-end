@@ -1,0 +1,95 @@
+.income-container {
+  min-height: 100vh;
+  background: white;
+}
+
+.income-header {
+  background: #0066ff;
+  color: white;
+  padding: 7px 8px;
+}
+
+.income-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px);
+  padding: 48px 20px;
+}
+
+.income-form {
+  width: 100%;
+  max-width: 700px;
+  position: relative;
+}
+
+.income-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.income-icon svg {
+  width: 80px;
+  height: 80px;
+}
+
+.income-title {
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.income-subtitle {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+
+.income-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.income-option {
+  padding: 16px;
+  background: #f5f5f5;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 500;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.income-option:hover {
+  background: #efefef;
+}
+
+.income-option.selected {
+  background: #0066ff;
+  color: white;
+  border-color: #0052cc;
+}
+
+@media (max-width: 768px) {
+  .income-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .income-title {
+    font-size: 24px;
+  }
+}

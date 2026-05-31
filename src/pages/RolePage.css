@@ -1,0 +1,101 @@
+.role-container {
+  min-height: 100vh;
+  background: white;
+}
+
+.role-header {
+  background: #0066ff;
+  color: white;
+  padding: 7px 8px;
+}
+
+.role-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: calc(100vh - 80px);
+  padding: 48px 20px;
+}
+
+.role-form {
+  width: 100%;
+  max-width: 900px;
+  position: relative;
+}
+
+.role-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.role-icon svg {
+  width: 80px;
+  height: 80px;
+}
+
+.role-industry-label {
+  color: #0066ff;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.role-title {
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.role-subtitle {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.role-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.role-option {
+  padding: 16px;
+  background: #f5f5f5;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 500;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.role-option:hover {
+  background: #efefef;
+}
+
+.role-option.selected {
+  background: #0066ff;
+  color: white;
+  border-color: #0052cc;
+}
+
+@media (max-width: 768px) {
+  .role-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .role-title {
+    font-size: 24px;
+  }
+}

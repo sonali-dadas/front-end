@@ -1,0 +1,155 @@
+.referral-container {
+  min-height: 100vh;
+  background: white;
+}
+
+.referral-header {
+  background: #0066ff;
+  color: white;
+  padding: 7px 8px;
+}
+
+.referral-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px);
+  padding: 48px 20px;
+}
+
+.referral-form {
+  width: 100%;
+  max-width: 700px;
+  position: relative;
+}
+
+.referral-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.referral-icon svg {
+  width: 80px;
+  height: 80px;
+}
+
+.referral-title {
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.referral-info {
+  display: flex;
+  gap: 12px;
+  background: #e3f2fd;
+  padding: 16px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.referral-info svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.referral-info p {
+  font-size: 14px;
+  color: #0066ff;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.referral-info strong {
+  font-weight: 600;
+}
+
+.referral-form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.referral-form-group label {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.referral-form-group input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+
+.referral-form-group input:focus {
+  outline: none;
+  border-color: #0066ff;
+}
+
+.referral-next-button {
+  width: 100%;
+  padding: 12px;
+  background: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-bottom: 12px;
+}
+
+.referral-next-button:hover {
+  background: #0052cc;
+}
+
+.referral-skip-button {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  color: #0066ff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: underline;
+}
+
+.referral-skip-button:hover {
+  opacity: 0.7;
+}
+.error-text {
+  color: red;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+
+.referral-next-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.referral-next-button.enabled {
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .referral-title {
+    font-size: 24px;
+  }
+}
